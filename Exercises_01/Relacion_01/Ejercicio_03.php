@@ -1,0 +1,18 @@
+<?php
+echo "<table border=1>";
+$n=1;
+for ($n1=1; $n1<=10; $n1++)
+{
+ if ($n1 % 2 == 0)
+ echo "<tr>";
+ else
+ echo "<tr bgcolor=#CACACA>";
+ for ($n2=1; $n2<=10; $n2++)
+ {
+ echo "<td>", $n, "</td>";
+ $n=$n+1;
+ }
+ echo "</tr>";
+}
+echo "</table>";
+?>
